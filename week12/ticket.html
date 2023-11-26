@@ -62,5 +62,22 @@
             <p><span class="boldText" id="amigoName">???</span></p>
         </amigoInfo>
     </ticket>
+
+    <script>
+        function Name(){
+            let StrName = window.prompt("What is your name?");
+            document.getElementById("ownerName").innerText = StrName;
+            document.title = `${StrName}'s Ticket to Animal Amigos`;
+        }
+        function VDate(){
+            let StrDate = window.prompt("WHat is the date of your first visit?");
+            document.getElementById("visitDate").innerText = StrName;
+
+
+        }
+        function cancelTicket(){
+            window.close();
+        }
+    </script>
 </body>
 </html>
